@@ -1,0 +1,30 @@
+{
+  "name": "Snowsgiving Bot",
+  "version": "1.0.0",
+  "description": "Stream Discord Snowsgiving Radio to your own voice channel!",
+  "main": "server.js",
+  "engines": {
+    "node": "12.x"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RemiixInc/snowsgiving.git"
+  },
+  "keywords": [
+    "Discord",
+    "Snowsgiving",
+    "Radio",
+    "Dash Radio",
+    "YouTube"
+  ],
+  "author": "RemiixInc",
+  "license": "MIT",
+  "dependencies": {
+    "@discordjs/opus": "^0.3.3",
+    "discord.js": "^12.5.0",
+    "ffmpeg-static": "^4.2.7"
+  }
+}
