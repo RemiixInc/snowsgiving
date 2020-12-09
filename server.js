@@ -13,7 +13,7 @@ client.on("message", message => {
         .join()
         .then(async connection => {
           const dispatcher = connection.play(
-            "https://hi.com"
+            "https://ice55.securenetsystems.net/DASH45"
           );
           dispatcher.on("finish", end => {
             voiceChannel.leave();
