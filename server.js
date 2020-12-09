@@ -6,7 +6,7 @@ client.on("ready", function() {
 });
 
 client.on("message", message => {
-  if (message.mentions.has("BOT ID")) {
+  if (message.mentions.has(client.user.id)) {
     (async () => {
       var voiceChannel = message.member.voice.channel;
       voiceChannel
