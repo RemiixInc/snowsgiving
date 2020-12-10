@@ -1,5 +1,5 @@
 {
-  "name": "Snowsgiving Bot",
+  "name": "snowsgiving-bot",
   "version": "1.0.0",
   "description": "Stream Discord Snowsgiving Radio to your own voice channel!",
   "main": "server.js",
