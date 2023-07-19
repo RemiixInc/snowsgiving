@@ -3,15 +3,17 @@
   "version": "1.0.0",
   "description": "Stream Discord Snowsgiving Radio to your own voice channel!",
   "main": "server.js",
-  "engines": {
-    "node": "18.x"
-  },
   "scripts": {
     "start": "node server.js"
   },
+  "author": "RemiixInc",
+  "license": "MIT",
   "dependencies": {
     "@discordjs/opus": "^0.3.3",
     "discord.js": "^12.5.0",
     "ffmpeg-static": "^4.2.7"
+  },
+  "engines": {
+    "node": "18.x"
   }
 }
